@@ -1,0 +1,31 @@
+single threaded:- It executes single task at a time.
+synchronous:- It will execute all the code line by line in the order which it is written.
+Asynchronous:- It will do the task without waiting for a task to complete its execution.
+
+Callback:- It is a function/methods which uses one more function as a parameter.
+Example:- MRF , addEventListener, settimeout
+arr.map(()=>{
+
+})
+div.addEventListener("click",()=>{
+
+})
+
+----------------------------------------------------
+//CallStack :- 
+=>It is a place where it keeps track of the function 
+that has to be called inside the program.
+=>It will execute whaterver statements inside the program.
+
+//WebApi:-
+=> It is the place where Asynchronous operations are actually executed.
+
+//Queue:-
+=>Queue is a data structure (FIFO) 
+=>It stores all the async function which has to be executed next.
+
+//EventLoop:- 
+=> It is between callstack and Queue
+=> the main role of the event loop is to check whether callstack is empty or not.
+=>If it is empty it will push the code from queue and pass it to callstack
+=>then the callstack executes it.
