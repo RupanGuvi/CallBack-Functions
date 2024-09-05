@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: aqua;
+    font-family: "Permanent Marker" cursive;
+
+}
+span{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin: 250px auto;
+}
